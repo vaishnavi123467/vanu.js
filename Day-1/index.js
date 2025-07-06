@@ -137,7 +137,31 @@ let data = 15;
     console.log(data);  //the yellow arrow is a block and we can write as many bracket in it but it should be inside the yellow block.
  }
 
-}    // same for const 
+}     
+
+
+// Const - Block scope {}
+
+{
+    const data = 18;
+     {
+        console.log(data);  //the yellow arrow is a block and we can write as many bracket in it but it should be inside the yellow block.
+     }
+    
+    }     
+    
+
+    // solve this by yourself :
+
+     
+     {
+        console.log(data1)    // this will give error because we have assign and declare variable after console.log
+        const data1 = 12;     // we have to decalre this first, then write console.log
+     }
+     
+  
+
+     
 
 
 
