@@ -2,9 +2,7 @@
  LOOPS : for loop , While loop , do-While loop
 -----------------------------------------------------------------------------------------------------------------------------------------------*/
 
-/* for loop : (syntax) :
-
-*/
+// for loop : (syntax) :
 
 
 // Q. Print numbers from given varibes with sequence of 5;
@@ -18,6 +16,8 @@ for (var i = start; i <= end; i += 5) {
 }
  
 
+
+
 //Q. print number from 10 - 100 who are even.
 
 var i = 1;
@@ -27,6 +27,8 @@ for( var i = 1; i <= 100; i++ ){
         console.log(i)
     }
 }
+
+
 
 //Q. print numbers from 10 - 1;
 
@@ -39,11 +41,18 @@ for (let b = 10; b >= 1; b--) {
 
 
 
+//Q. print number from 0 to 20 that are odd
+
+let d = 0;
+for ( let d = 0 ; d <= 20; d++) {
+  if( d % 2 == 1) {
+    console.log(d)
+  }
+ 
+}
 
 
-
-
-
+//-----------------------------------------------------------------------------------------------------------------------------------------
 
 
 /* While loop : (syntax) :
@@ -58,8 +67,7 @@ for (let b = 10; b >= 1; b--) {
 
 
 
-
-//Q.2 - print odd number from 1 - 10 ?
+//Q. print odd number from 1 - 10 ?
 
 let j = 1;
 let count = 0;
@@ -70,6 +78,8 @@ while (j <=10 ) {
     j++;
 }
   console.log(count ," count ")
+
+
 
 
 //Q. print number from 100 - 10 amd who are odd by using while loop (backward)
@@ -83,6 +93,8 @@ while (a >= 10) {
 }
 
 
+
+
 //Q. print number from 100 - 10 amd who are odd by using while loop (frontend)
 
 let c = 0;
@@ -92,6 +104,8 @@ while (c <= 100) {
   }
   c++;
 }
+
+
 
 
 
