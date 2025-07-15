@@ -106,6 +106,46 @@ while (c <= 100) {
 }
 
 
+//------------------------------------------------------------------------------------------------------------------------------------------
+
+//do-while loop : (syntax) :
+
+/* before checking condition it exectute the block
+
+starting
+do{
+    code
+    sequemce
+}while(ending)
+*/
+
+
+// Q. Print number from 1 - 10
+
+let h = 1;
+
+do {
+    console.log(h)
+    h++;
+} while ( h > 10)
+
+
+  //Q. Print count of odd numbers from 100 - 1
+
+  let k = 100;
+  let counter = 0;
+  do {
+    if (k % 2 == 1) {
+      counter++;
+    }
+    k--;
+  } while (k >= 1);
+  
+  console.log(counter, "counter");
+  
+
+
+
 
 
 
