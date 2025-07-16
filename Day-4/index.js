@@ -142,9 +142,44 @@ do {
   } while (k >= 1);
   
   console.log(counter, "counter");
+
+//-----------------------------------------------------------------------------------------------
+
+
+// break : stop execution of loop .
+
+
+for (var i = 1; i <= 10; i++) {
+  console.log(i);
+  if (i > 5) {
+    break;
+  }
+}
+
+
+// Q.  1 - 100 , print count of even numbers  , and if count goes above 20 then break loop ?
+
+let counnt = 0;
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 == 0) {
+    if (counnt >= 20) {
+      break;
+    }
+    counnt++;
+  }
+}
+console.log(counnt);
+
+//----------------------------------------------------------------------------------------------------------------------------------
   
+// continue : skip single iteration of loop .
 
-
+for (let i = 1; i <= 10; i++) {
+  if (i == 5 || i == 7 || i == 1) {
+    continue;
+  }
+  console.log(i);
+}
 
 
 
