@@ -25,3 +25,34 @@ for (let i = 0; i < numbers.length; i++) {
 }
 console.log(evenCount, "evenCount");
 
+
+
+
+//Q. Given an array check given age from end side of array,if found then return index ?
+
+let usersAge = [23, 32, 45, 65, 23, 56, 24, 23];
+let targetAge = 24;
+
+for (let i = usersAge.length - 1; i >= 0; i--) {
+  //   console.log(usersAge[i], i);
+  if (targetAge == usersAge[i]) {
+    console.log(i);
+    break;
+  }
+}
+
+
+
+
+// Q. no reduce only modification 
+let number = [1, 2, 3];
+let newArray = number.map((number) => number * 5);
+console.log(newArray,"newArray") //[5, 10, 15 ]
+
+
+
+
+// Q. 
+let students = ["virat", "rohit", "rahul"];
+let updatedStudentsName = students.map((student) =>  student + " kohli" );
+console.log(updatedStudentsName, "updatedStudentsName");
