@@ -1,9 +1,11 @@
+
 //* In javascript code is executed line by line.
 // javascript is a programming language , .js is the extension of javascript.
 // console.log is used to log (print) a message of the code.
 
+//-------------------------------------------------------------------------------------------------------------------------------------------------
 
-//*DataTypes :  
+//DataTypes :  
 console.log("Hello", typeof "Hello") // This gives you the type of the data you have entered ie.String         output = Hello string
 console.log(true, typeof true)       // This gives you the type of the data you have entered ie.boolean        output = true boolean
 console.log(54, typeof 54)           // This gives you the type of the data you have entered ie.number         output = 54 number
@@ -14,12 +16,14 @@ console.log(studentData , typeof studentData);  //output = null object        (t
 var num  ;            // here we have not assign any value to variable so it will give us undefined .
 console.log(num , typeof num);   //output = undefined undefined      ( typeof num = undefined)
 
+//---------------------------------------------------------------------------------------------------------------------------------------------
 
-//*Variables :
-// Variables are containers for storing data.
-// variable names are case sensitive ie. 'a' and 'A' are different.
-// This is way we write variable using var.   
-// we can  declare, assign, re-declare, re-assign it.
+/*Variables :
+ Variables are containers for storing data.
+ variable names are case sensitive ie. 'a' and 'A' are different.
+ This is way we write variable using var.   
+ we can  declare, assign, re-declare, re-assign it.*/
+
 var num = 12                      // here we have declare and assign variable.
 var num = 30                      // here we have  re-declared and re-assign and the same varibale which is given above.
 console.log(num)                  // so the final output we will get is 30  .
@@ -67,6 +71,7 @@ counter-- ;                 // it will subtract the number by 1 , so counter is 
 counter -= 1  ;             // it will subtract the number by 1 and we will get -2 ,  because earlier we were having -1 . 
 console.log(counter);      // output = -2        { Lec- 1 JS time-38:00}
 
+//---------------------------------------------------------------------------------------------------------------------------------------------
 
 // Hoisting - It takes all the variable and place it at the first line . It happens only with var not with const and let.
 // suppose we have code as 
@@ -79,13 +84,15 @@ var counter;
 // so the line no 76 ie. (var counter;) will be placed at the 1st line which will give us output as 1. 
 // (ie. line 69 will go to line 1 beacuse of hoisting)
   
+//----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-// lets understand variable (let) :
+/* lets understand variable (let) :
 // Here we can declare , assign , re-assign the var(let).
 // we cannot re-declare it.
-// It is a block scope variable.
-let age = 12;         // here we have decalred and assigned the varivable
+// It is a block scope variable.*/
+
+let age = 12;         // here we have decalred and assigned the variable
 console.log(age);     
 
 age=13;               // here we have assigned the variable a new value
@@ -94,10 +101,17 @@ console.log(age);
 //let age = 14;       // This will give us error as - cannot re-deaclare block scope variable.
 //console.log(age)
 
-// Lets understand  variable const:  
-// We cannot  re-declare and re-assign it.
+
+//---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+/* Lets understand  variable const:  
+   We cannot  re-declare and re-assign it.*/
 const data = 10 ;
 console.log(data);  // output = 10
+
+
+//------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 //Scope : JS1 21st june 50
@@ -165,23 +179,25 @@ let data = 15;
 
 
 
-//////////////////////////////////very imp table////////////////////////////////////////////////////
+//*********************************************************************************************************************************************
+      //IMPORTANT TABLE
+
 
  // Table to understand var let and const easily :
 
- //           var         let         const
- // reassign    true        true        false
- // redelcare   true        false       false
- // hosting     true        false       false
- // scope       global      block       block
+ /*            var         let         const
+   reassign    true        true        false
+   redelcare   true        false       false
+   hosting     true        false       false
+   scope       global      block       block
 
 
 
- // concepts we learned today :
+ ** concepts we learned today : **
 
-// Datatypes -String , Number , Boolean , undefined , null 
+ Datatypes -String , Number , Boolean , undefined , null 
 
-// varibles  var , let ,const , difference , hoisting , scope
+ varibles  var , let ,const , difference , hoisting , scope
 
-// operators -increment , decrment 
+ operators -increment , decrment */
 
